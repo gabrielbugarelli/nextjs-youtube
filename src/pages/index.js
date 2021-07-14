@@ -1,9 +1,13 @@
-import React from "react";
+import React from 'react';
+import { Button } from '@material-ui/core';
 
 export default function Home() {
   return (
     <div>
-      <h1>Clone do Youtube com NextJS + Material UI</h1>
+      Clone youtube com Next.js + Material-UI
+      <Button variant="outlined" color="secondary">
+        Primary
+      </Button>
     </div>
-  )
+  );
 }
